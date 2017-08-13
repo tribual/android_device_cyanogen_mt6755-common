@@ -1,0 +1,8 @@
+How to make a patches after changes in source code:
+
+Cd Working_dir (For example: Cd aokp7/frameworks/base)
+git status
+git add .
+git commit -m "name of patch"
+git show HEAD > 0001_.patch
+
